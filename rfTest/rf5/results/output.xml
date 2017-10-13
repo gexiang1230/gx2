@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171012 15:25:41.661" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\AJ002\PycharmProjects\gx2\rfTest\rf5\edu1.robot" id="s1" name="Edu1">
+<test id="s1-t1" name="用例1：添加课程1">
+<kw type="setup" name="deleteAllLesson" library="rc">
+<kw name="logintest" library="rc">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://localhost/mgr/login/login.html</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171012 15:25:43.275" level="FAIL">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</msg>
+<status status="FAIL" endtime="20171012 15:25:43.275" starttime="20171012 15:25:43.275"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.276" starttime="20171012 15:25:43.275"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.276" starttime="20171012 15:25:43.273"></status>
+</kw>
+<kw type="teardown" name="deleteAllLesson" library="rc">
+<kw name="logintest" library="rc">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://localhost/mgr/login/login.html</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171012 15:25:43.277" level="FAIL">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</msg>
+<status status="FAIL" endtime="20171012 15:25:43.277" starttime="20171012 15:25:43.276"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.277" starttime="20171012 15:25:43.276"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.277" starttime="20171012 15:25:43.276">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.277" critical="yes" starttime="20171012 15:25:43.272">Setup failed:
+Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.
+
+Also teardown failed:
+Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</status>
+</test>
+<test id="s1-t2" name="用例1：添加课程2">
+<kw type="setup" name="deleteAllLesson" library="rc">
+<kw name="logintest" library="rc">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://localhost/mgr/login/login.html</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171012 15:25:43.279" level="FAIL">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</msg>
+<status status="FAIL" endtime="20171012 15:25:43.279" starttime="20171012 15:25:43.279"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.279" starttime="20171012 15:25:43.278"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.279" starttime="20171012 15:25:43.278"></status>
+</kw>
+<kw type="teardown" name="deleteAllLesson" library="rc">
+<kw name="logintest" library="rc">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://localhost/mgr/login/login.html</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171012 15:25:43.280" level="FAIL">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</msg>
+<status status="FAIL" endtime="20171012 15:25:43.280" starttime="20171012 15:25:43.280"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.280" starttime="20171012 15:25:43.279"></status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.281" starttime="20171012 15:25:43.279">Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</status>
+</kw>
+<status status="FAIL" endtime="20171012 15:25:43.281" critical="yes" starttime="20171012 15:25:43.277">Setup failed:
+Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.
+
+Also teardown failed:
+Keyword 'Selenium2Library.Go To' expected 1 argument, got 2.</status>
+</test>
+<status status="FAIL" endtime="20171012 15:25:43.281" starttime="20171012 15:25:41.666"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="0">Critical Tests</stat>
+<stat fail="2" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="Edu1" pass="0">Edu1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

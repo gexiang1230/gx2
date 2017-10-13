@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171010 11:43:47.759" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\AJ002\PycharmProjects\gx2\rfTest\setTrar.robot" id="s1" name="setTrar">
+<kw type="setup" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n'套件初始化'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.517" starttime="20171010 11:43:49.517"></status>
+</kw>
+<test id="s1-t1" name="用例1">
+<kw type="setup" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n'第一行'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.518" starttime="20171010 11:43:49.518"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n第二行：测试用例1主体部分</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.519" starttime="20171010 11:43:49.518"></status>
+</kw>
+<kw type="teardown" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n'第三行'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.519" starttime="20171010 11:43:49.519"></status>
+</kw>
+<doc>
+测试初始化和清除</doc>
+<status status="PASS" endtime="20171010 11:43:49.519" critical="yes" starttime="20171010 11:43:49.517"></status>
+</test>
+<test id="s1-t2" name="用例2">
+<kw type="setup" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n'测试用例初始化'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.520" starttime="20171010 11:43:49.520"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n 测试用例2主体部分</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.520" starttime="20171010 11:43:49.520"></status>
+</kw>
+<kw type="teardown" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n '测试用例清除'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.521" starttime="20171010 11:43:49.521"></status>
+</kw>
+<status status="PASS" endtime="20171010 11:43:49.521" critical="yes" starttime="20171010 11:43:49.519"></status>
+</test>
+<test id="s1-t3" name="用例3">
+<kw type="setup" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n'测试用例初始化'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.522" starttime="20171010 11:43:49.522"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n测试用例3主体部分</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.522" starttime="20171010 11:43:49.522"></status>
+</kw>
+<kw type="teardown" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n '测试用例清除'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.523" starttime="20171010 11:43:49.522"></status>
+</kw>
+<status status="PASS" endtime="20171010 11:43:49.523" critical="yes" starttime="20171010 11:43:49.521"></status>
+</test>
+<kw type="teardown" name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>\n '套件清除'</arg>
+</arguments>
+<status status="PASS" endtime="20171010 11:43:49.523" starttime="20171010 11:43:49.523"></status>
+</kw>
+<status status="PASS" endtime="20171010 11:43:49.523" starttime="20171010 11:43:47.766"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="setTrar" pass="3">setTrar</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

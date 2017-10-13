@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171010 17:34:28.316" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\AJ002\PycharmProjects\gx2\rfTest\rf4\edu1.robot" id="s1" name="Edu1">
+<test id="s1-t1" name="用例1：验证当系统中没有课程的时候，是否能成功添加一个课程">
+<kw type="setup" name="Delete All Lesson" library="eduini">
+<msg timestamp="20171010 17:34:41.728" level="INFO">[]</msg>
+<status status="PASS" endtime="20171010 17:34:41.729" starttime="20171010 17:34:29.112"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://localhost/mgr/login/login.html</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20171010 17:34:41.730" level="INFO">Opening browser 'Chrome' to base url 'http://localhost/mgr/login/login.html'</msg>
+<status status="PASS" endtime="20171010 17:34:46.203" starttime="20171010 17:34:41.729"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="Selenium2Library">
+<doc>Sets Selenium 2's default implicit wait in seconds and</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<status status="PASS" endtime="20171010 17:34:46.207" starttime="20171010 17:34:46.203"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>auto</arg>
+</arguments>
+<msg timestamp="20171010 17:34:46.208" level="INFO">Typing text 'auto' into text field 'id=username'</msg>
+<status status="PASS" endtime="20171010 17:34:46.352" starttime="20171010 17:34:46.207"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>qwe123</arg>
+</arguments>
+<msg timestamp="20171010 17:34:46.352" level="INFO">Typing text 'qwe123' into text field 'id=password'</msg>
+<status status="PASS" endtime="20171010 17:34:46.469" starttime="20171010 17:34:46.352"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>tag=button</arg>
+</arguments>
+<msg timestamp="20171010 17:34:46.470" level="INFO">Clicking element 'tag=button'.</msg>
+<status status="PASS" endtime="20171010 17:34:46.576" starttime="20171010 17:34:46.469"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=button[ng-click^="showAddOne"]</arg>
+</arguments>
+<msg timestamp="20171010 17:34:46.577" level="INFO">Clicking element 'css=button[ng-click^="showAddOne"]'.</msg>
+<status status="PASS" endtime="20171010 17:34:47.200" starttime="20171010 17:34:46.577"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>css=input[ng-model="addData.name"]</arg>
+<arg>初中数学</arg>
+</arguments>
+<msg timestamp="20171010 17:34:47.201" level="INFO">Typing text '初中数学' into text field 'css=input[ng-model="addData.name"]'</msg>
+<status status="PASS" endtime="20171010 17:34:47.337" starttime="20171010 17:34:47.200"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>css=textarea[ng-model="addData.desc"]</arg>
+<arg>初中数学基础信息</arg>
+</arguments>
+<msg timestamp="20171010 17:34:47.338" level="INFO">Typing text '初中数学基础信息' into text field 'css=textarea[ng-model="addData.desc"]'</msg>
+<status status="PASS" endtime="20171010 17:34:47.489" starttime="20171010 17:34:47.338"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>css=input[ng-model="addData.display_idx"]</arg>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20171010 17:34:47.489" level="INFO">Typing text '1' into text field 'css=input[ng-model="addData.display_idx"]'</msg>
+<status status="PASS" endtime="20171010 17:34:47.621" starttime="20171010 17:34:47.489"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>css=button[ng-click="addOne()"]</arg>
+</arguments>
+<msg timestamp="20171010 17:34:47.621" level="INFO">Clicking element 'css=button[ng-click="addOne()"]'.</msg>
+<status status="PASS" endtime="20171010 17:34:47.742" starttime="20171010 17:34:47.621"></status>
+</kw>
+<kw name="Get Webelements" library="Selenium2Library">
+<doc>Returns list of WebElement objects matching locator.</doc>
+<arguments>
+<arg>xpath=//div[@class='row col-lg-12 col-md-12 col-sm-12 ng-scope']//td[2]</arg>
+</arguments>
+<assign>
+<var>${eles}</var>
+</assign>
+<msg timestamp="20171010 17:34:47.833" level="INFO">${eles} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="0c0a98c2366bdab325725029efeaab63", element="0.8805325299347377-6")&gt;]</msg>
+<status status="PASS" endtime="20171010 17:34:47.833" starttime="20171010 17:34:47.743"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<assign>
+<var>${lession}</var>
+</assign>
+<msg timestamp="20171010 17:34:47.834" level="INFO">${lession} = []</msg>
+<status status="PASS" endtime="20171010 17:34:47.834" starttime="20171010 17:34:47.834"></status>
+</kw>
+<kw type="for" name="${ele} IN [ @{eles} ]">
+<kw type="foritem" name="${ele} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0c0a98c2366bdab325725029efeaab63&quot;, element=&quot;0.8805325299347377-6&quot;)&gt;">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${ele.text}</arg>
+</arguments>
+<status status="PASS" endtime="20171010 17:34:47.860" starttime="20171010 17:34:47.836"></status>
+</kw>
+<kw name="Append To List" library="Collections">
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<arguments>
+<arg>${lession}</arg>
+<arg>${ele.text}</arg>
+</arguments>
+<status status="PASS" endtime="20171010 17:34:47.873" starttime="20171010 17:34:47.860"></status>
+</kw>
+<status status="PASS" endtime="20171010 17:34:47.873" starttime="20171010 17:34:47.835"></status>
+</kw>
+<status status="PASS" endtime="20171010 17:34:47.874" starttime="20171010 17:34:47.835"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>初中数学</arg>
+</arguments>
+<assign>
+<var>${expected}</var>
+</assign>
+<msg timestamp="20171010 17:34:47.874" level="INFO">${expected} = [u'\u521d\u4e2d\u6570\u5b66']</msg>
+<status status="PASS" endtime="20171010 17:34:47.874" starttime="20171010 17:34:47.874"></status>
+</kw>
+<kw name="Lists Should Be Equal" library="Collections">
+<doc>Fails if given lists are unequal.</doc>
+<arguments>
+<arg>${lession}</arg>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20171010 17:34:47.874" starttime="20171010 17:34:47.874"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20171010 17:34:51.094" starttime="20171010 17:34:47.875"></status>
+</kw>
+<kw type="teardown" name="Delete All Lesson" library="eduini">
+<msg timestamp="20171010 17:35:04.831" level="INFO">[&lt;selenium.webdriver.remote.webelement.WebElement (session="ce651735894d599661648a5d019bab18", element="0.004808858411079697-1")&gt;]
+[]</msg>
+<status status="PASS" endtime="20171010 17:35:04.832" starttime="20171010 17:34:51.094"></status>
+</kw>
+<status status="PASS" endtime="20171010 17:35:04.832" critical="yes" starttime="20171010 17:34:29.110"></status>
+</test>
+<status status="PASS" endtime="20171010 17:35:04.835" starttime="20171010 17:34:28.321"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Edu1" pass="1">Edu1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
