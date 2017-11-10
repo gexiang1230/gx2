@@ -1,7 +1,7 @@
 *** Settings ***
 Library  Selenium2Library
 Library  Collections
-Resource  rflib/rc.robot
+Resource  rc.robot
 *** Test Cases ***
 用例1：添加课程1
     [Setup]     deleteAllLesson
