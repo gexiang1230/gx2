@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20171012 16:47:59.778" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
-<suite source="C:\Users\AJ002\PycharmProjects\gx2\rfTest\suitestr\st1.robot" id="s1" name="St1">
+<robot generated="20171127 10:51:12.185" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\AJ002\PycharmProjects\gx2\rfTest\suitestr\st3.robot" id="s1" name="St3">
 <kw type="setup" name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>\n'st1文件-套件初始化'</arg>
+<arg>\n'st1文件-用例初始化'</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.828" starttime="20171012 16:47:59.828"></status>
+<status status="PASS" endtime="20171127 10:51:12.210" starttime="20171127 10:51:12.210"></status>
 </kw>
 <test id="s1-t1" name="用例1">
 <kw type="setup" name="Log To Console" library="BuiltIn">
@@ -14,82 +14,54 @@
 <arguments>
 <arg>\n'第一行'</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.829" starttime="20171012 16:47:59.829"></status>
+<status status="PASS" endtime="20171127 10:51:12.211" starttime="20171127 10:51:12.211"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n第二行：测试用例1主体部分</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.830" starttime="20171012 16:47:59.830"></status>
+<status status="PASS" endtime="20171127 10:51:12.211" starttime="20171127 10:51:12.211"></status>
 </kw>
 <kw type="teardown" name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n'第三行'</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.830" starttime="20171012 16:47:59.830"></status>
+<status status="PASS" endtime="20171127 10:51:12.212" starttime="20171127 10:51:12.212"></status>
 </kw>
 <doc>
 测试初始化和清除</doc>
-<status status="PASS" endtime="20171012 16:47:59.830" critical="yes" starttime="20171012 16:47:59.829"></status>
+<status status="PASS" endtime="20171127 10:51:12.212" critical="yes" starttime="20171127 10:51:12.210"></status>
 </test>
 <test id="s1-t2" name="用例2">
-<kw type="setup" name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\n'st1文件-用例初始化'</arg>
-</arguments>
-<status status="PASS" endtime="20171012 16:47:59.831" starttime="20171012 16:47:59.831"></status>
-</kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n 测试用例2主体部分</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.831" starttime="20171012 16:47:59.831"></status>
+<status status="PASS" endtime="20171127 10:51:12.213" starttime="20171127 10:51:12.213"></status>
 </kw>
-<kw type="teardown" name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\n'st1文件-套件初始化'</arg>
-</arguments>
-<status status="PASS" endtime="20171012 16:47:59.832" starttime="20171012 16:47:59.832"></status>
-</kw>
-<status status="PASS" endtime="20171012 16:47:59.832" critical="yes" starttime="20171012 16:47:59.831"></status>
+<status status="PASS" endtime="20171127 10:51:12.213" critical="yes" starttime="20171127 10:51:12.212"></status>
 </test>
 <test id="s1-t3" name="用例3">
-<kw type="setup" name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\n'st1文件-用例初始化'</arg>
-</arguments>
-<status status="PASS" endtime="20171012 16:47:59.833" starttime="20171012 16:47:59.832"></status>
-</kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n测试用例3主体部分</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.833" starttime="20171012 16:47:59.833"></status>
+<status status="PASS" endtime="20171127 10:51:12.214" starttime="20171127 10:51:12.214"></status>
 </kw>
+<status status="PASS" endtime="20171127 10:51:12.214" critical="yes" starttime="20171127 10:51:12.213"></status>
+</test>
 <kw type="teardown" name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n'st1文件-套件初始化'</arg>
 </arguments>
-<status status="PASS" endtime="20171012 16:47:59.835" starttime="20171012 16:47:59.834"></status>
+<status status="PASS" endtime="20171127 10:51:12.216" starttime="20171127 10:51:12.215"></status>
 </kw>
-<status status="PASS" endtime="20171012 16:47:59.835" critical="yes" starttime="20171012 16:47:59.832"></status>
-</test>
-<kw type="teardown" name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\n'st1文件-套件清除'</arg>
-</arguments>
-<status status="PASS" endtime="20171012 16:47:59.836" starttime="20171012 16:47:59.836"></status>
-</kw>
-<status status="PASS" endtime="20171012 16:47:59.836" starttime="20171012 16:47:59.783"></status>
+<status status="PASS" endtime="20171127 10:51:12.216" starttime="20171127 10:51:12.190"></status>
 </suite>
 <statistics>
 <total>
@@ -99,7 +71,7 @@
 <tag>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="St1" pass="3">St1</stat>
+<stat fail="0" id="s1" name="St3" pass="3">St3</stat>
 </suite>
 </statistics>
 <errors>

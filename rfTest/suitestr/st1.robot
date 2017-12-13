@@ -2,9 +2,8 @@
 Suite Setup     log to console    \n'st1文件-套件初始化'
 Suite Teardown  log to console    \n'st1文件-套件清除'
 Test Setup      log to console    \n'st1文件-用例初始化'
-Test Teardown   log to console    \n'st1文件-套件初始化'
-#Suite Setup    log to console    测试套件初始化
-#Suite Teardown   log to console    测试套件清除
+Test Teardown   log to console    \n'st1文件-用例清除'
+
 
 *** Test Cases ***
 用例1

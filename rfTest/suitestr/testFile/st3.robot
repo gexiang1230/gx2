@@ -1,3 +1,7 @@
+*** Settings ***
+Suite Setup      log to console    \n'st1文件-套件初始化'
+Suite Teardown   log to console    \n'st1文件-套件初始化'
+
 *** Test Cases ***
 用例1
      [Documentation]   \n测试初始化和清除
