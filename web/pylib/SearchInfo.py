@@ -5,23 +5,20 @@ import WebOpAdmin
 from cfg import *
 
 class SearchInfo(WebOpAdmin.Login):
-    '''
-    检查查询功能中的文本
-    1.核实所有的文本
-    2.核实所有文本框的内容
-    3.查询后的字段
-    '''
     ROBOT_LIBRARY_SCOPE='GLOBAL'
-    def checkInfo(self):
-        try:
-          WebOpAdmin.Login.login(cdf.loginAdmin['name'],cfg.loginAdmin['pwd'])
-          getAllInfo=self.cur_wd.find_element_by_id('formSearch')
-          getAllInfoList=getAllInfo.get_attribute('innerTEXT')
-          return  getAllInfoList
-        except:
-          print traceback.format_exc()
+    def checkTextBox(self,locator):
+        '''检查文本'''#当RF中使用这个类方法的时候会
 
+        self.cur_wd.implicitly_wait(5)
+        realx=self.cur_wd.find_element_by_css_selector(locator).text
+        return realx
+
+
+def checkSelectBox(self):
+        pass
 
 if __name__=='__main__':
     c=SearchInfo()
-    print c.checkInfo
+    c.login('ly','ly123!@#')
+    print  c.checkTextBox()
+    c.TearBrower()
