@@ -1,2 +1,3 @@
 #coding:utf-8
-print len(1)
+# print [[2]*10]*100
+print 2**100000

@@ -10,3 +10,4 @@ searchText
      ...                       客户编号  未回访  到期时间  否有微信  未达PPC
      ...                       用户组别  签收时间  是否检查  设备厂商
      should contain    ${real}    ${ele}
+
