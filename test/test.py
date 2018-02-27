@@ -155,10 +155,10 @@ import sys
 # print 'y'  #标准输出流输出
 
 # 疑问
-x = 1
-y = 2
-import sys
-sys.stdout.write(str(x)+' '+str(y)+'\n')
+# x = 1
+# y = 2
+# import sys
+# sys.stdout.write(str(x)+' '+str(y)+'\n')
 
 
 
@@ -166,4 +166,14 @@ sys.stdout.write(str(x)+' '+str(y)+'\n')
 # import random
 # print random.randint(1,5)
 
+'''二维+一维组成三维数据'''
+L1=[1,2,3,4]
+L2=[[1,1],[2,2],[3,3],[4,4]]
+for one in L2:
+      one.append(L1[0])
+      L1 = L1[1:]
+      print one
 
+# s = 'spam'
+# for (x,y) in enumerate(s):
+#     print x,',',y
